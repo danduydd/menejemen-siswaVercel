@@ -1,4 +1,4 @@
-import { CalendarIcon, Home, Inbox, Search, Settings } from "lucide-react"
+import { CalendarIcon, Home, Inbox, Mail, Search, Settings } from "lucide-react"
 
 import {
   Sidebar,
@@ -27,6 +27,11 @@ const items = [
     url: "#",
     icon: CalendarIcon, // Disesuaikan dengan nama import
   }, // Menambahkan koma di sini
+  {
+    title: "Email",
+    url: "#",
+    icon: Mail,
+  },
   {
     title: "Search",
     url: "#",
